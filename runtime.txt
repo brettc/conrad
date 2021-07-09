@@ -1,0 +1,2 @@
+# python version for netlify
+3.9
