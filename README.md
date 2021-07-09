@@ -34,9 +34,6 @@ The evolution and development of multicellular form is one of the most striking 
 
 Conrad aim is provides just enough complexity to surface some of the same conceptual problems, but without the same problems of empirical 
 
-The aim of Conrad is to provide just enough complex
-Conrad is the thinking tool for evo-devo. It’s ai
-
 My aim in creating `Conrad` were foremost to provide the means to explore conceptual stuff. My main aim is to provide a simulation that is powerful enough to *pose the same conceptual difficulties* in attempting to analyse or explain what is going on.
 
 * One reason (but not the only) that the two first features are so simple, is that it enables relatively rapid evolution (on the order of 100,000s of generations), and does so in parallel.
