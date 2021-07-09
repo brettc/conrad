@@ -1,2 +1,2 @@
 # python version for netlify. This is the highest supported.
-3.7
+3.8
