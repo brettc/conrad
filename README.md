@@ -1,34 +1,38 @@
 # Conrad: a minimalist simulation of evo-devo
 
-Evolutionary-developmental biology (evo-devo) biology is the study of the intertwined relationship between development and evolution.
+`Conrad` provides a toy world with simple analogs of gene regulation, multicellular development and evolutionary change. You can design experiments that evolve targeted cellular activity or two-dimensional patterns, then examine the resulting gene interactions, perform knockouts, or expose the evolved genes to novel environments. `Conrad` saves the entire evolutionary history of an experiment, so you can retrace the precise steps that led to a particular adaptation, or restart another experiment from any point.
 
-The combination of. The aim of `Conrad` is to 
-Maybe: A cognitive tool for thinking about evo-devo.
-* A thinking tool for evo-devo.
-
-* Add: know everything. Control everything.
-
-Plasticity, Robustness, Genetic Drift, Evolvability. 
+`Conrad` is written in [Python][1] (with an optional C++ module for speed). Experiments and analysis can be scripted, and [Jupyter Notebooks][2] can be used to interactively explore ideas and examine results.
 
 ## What’s in the box?
 
 `Conrad` provides the following:
 
 * Gene Regulation: A Boolean model of gene regulation that generates a discrete time series of Boolean cellular activity.
-* Fitness evaluation: Fitness is measure by exposing genes to a variety of different environments and comparing the resulting cellular activity against a specified target.
-* Evolution: `Conrad` has a simple asexual model of evolutionary change, with control over population sizes, mutation rates and some aspects of how regulatory binding sites are generated. 
-* 2d Multicellular Development: `Conrad` developmental systtem By embedding into the same genes regulatory control in in the form of a simple 2d cellular automaton. `Conrad`Gene regulatory models are wired together, using several signalling models.
+* Fitness evaluation: Fitness is measure by exposing genes to a variety of different environments and comparing the resulting cellular activity with a specified target.
+* Evolution: `Conrad` has a simple asexual model of evolutionary change, with control over population sizes, mutation rates, and the generation of regulatory binding sites and interactions.
+* 2D Multicellular Development: `Conrad` developmental system the same developmental system By embedding into the same genes regulatory control in the form of a simple 2D cellular automaton. `Conrad`Gene regulatory models are wired together, using several signalling models.
 
-Despite the relatively simple combination of features, `Conrad` can be used to generate an wide variety of XXXX: 
+Tools:
+* Parallel replicates.
+* Automatic visualisation of gene networks and diffs
+* Visual representations of developmental stage, and their evolutionary xxx
+* Tracking of metrics over evo
+* Information measures of causal xxxx.
+
+## What is it for?
+
+Despite the relatively simple combination of features, `Conrad` can be used to generate a wide variety of XXXX: 
 
 * Plasticity. 
-* Automatic generation of many different genetic interactions.
+* Automatic generation of many genetic interactions.
 * Knockouts can be performed on different 
 * Transplanted 
 * New populations can be generated
 
+Plasticity, Robustness, Genetic Drift, Evolvability. 
 
-## What is it for?
+`Conrad` attempts to provide a cognitive tool to aid thinking 
 
 The evolution and development of multicellular form is one of the most striking processes in the biological world. Understanding the complex interaction between these empirical 
 
@@ -55,13 +59,18 @@ The environment provides constraints.
 
 `Conrad` provides an elementary evolvable world,. is to provide a evolutionary simulation 
 
-Despite the relatively simple implementation, the cells 
+Despite the simple implementation, the cells 
 
 Things it has:
 * There is not meant for cooperation or any interaction between the organisms..
 
-## Why “Conrad”?
+## Answers to Questions.
 
-The name comes from [Conrad H. Waddington][1], a biologist that layed the foundations for many evolutionary developmental biology. He is perhaps well known for the epigenetic landscape. I find Waddington a fascinating figure, XXXX. I hope he would have liked this simulation.
+* **Why “Conrad”?** The name comes from [Conrad H. Waddington][ch] , a biologist that layed the foundations for many evolutionary developmental biology. He is perhaps well known for the epigenetic landscape. I find Waddington a fascinating figure, XXXX. I hope he would have liked this simulation.
 
-[1]:	https://en.wikipedia.org/wiki/C._H._Waddington
+* **This isn’t really a minimalist simulation**. That isn’t a really a question. But yes, you are right. There are far simpler models that capture interesting.
+
+* There
+
+[1]:	https://python.org
+[2]:	https://jupyter.org
