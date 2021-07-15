@@ -1,4 +1,6 @@
-site_name: My Docs
-site_url: https://example.com/
+site_name: Conrad
+site_description: a minimalist evo-devo simulation
+site_url: https://brettc.github.io/conrad
+strict: true
 theme:
     name: material
