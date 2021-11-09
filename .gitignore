@@ -140,3 +140,5 @@ dmypy.json
 cython_debug/
 tags
 /.Ulysses-Settings.plist
+/docs/.pheasant_cache/
+/.DS_Store

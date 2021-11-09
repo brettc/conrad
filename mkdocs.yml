@@ -1,6 +1,10 @@
 site_name: Conrad
 site_description: a minimalist evo-devo simulation
 site_url: https://brettc.github.io/conrad
-strict: true
+# strict: true
 theme:
     name: material
+
+plugins:
+    - mkdocs-jupyter
+    - pheasant

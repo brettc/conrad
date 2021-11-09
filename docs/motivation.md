@@ -3,6 +3,11 @@ The evolution and development of multicellular form is one of the most striking 
 
 Gathering empirical evidence isn’t all of science, however. There remains a fair amount of controversy about many things in evolutionary developmental biology. In many cases, it is the study of particular animals. What can we say in general?
 
+```python inline
+k = 5 * 1
+k
+```
+
 ## What’s missing?
 
 * Gene and cellular activity are Boolean, thus there no capacity for xxx.
